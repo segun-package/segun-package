@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>세건 패키지 | 산업용 포장자재 전문기업</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Malgun Gothic',sans-serif;
+}
+
+body{
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#1f3b63;
+    color:white;
+    padding:20px 0;
+    position:sticky;
+    top:0;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.menu{
+    display:flex;
+    gap:30px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    height:500px;
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    background:#1f3b63;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    font-size:36px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#1f3b63;
+}
+
+.about{
+    background:#f7f7f7;
+}
+
+.contact{
+    background:#1f3b63;
+    color:white;
+    text-align:center;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    .menu{
+        display:none;
+    }
+
+    .hero h1{
+        font-size:32px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">세건 패키지</div>
+
+            <div class="menu">
+                <a href="#about">회사소개</a>
+                <a href="#products">취급품목</a>
+                <a href="#cases">납품사례</a>
+                <a href="#contact">견적문의</a>
+                <a href="#location">오시는길</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>산업용 포장자재 원스톱 공급</h1>
+        <p>
+            15년 이상의 경험과 신뢰<br>
+            포장에 필요한 모든 자재를 공급합니다
+        </p>
+
+        <a href="#contact" class="btn">
+            견적 문의하기
+        </a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2 class="section-title">회사소개</h2>
+
+        <p style="font-size:18px;text-align:center;">
+            세건 패키지는 15년 이상 산업용 포장자재 분야에서
+            축적된 경험과 신뢰를 바탕으로 고객사에 최적의 제품을
+            공급하고 있습니다.
+            <br><br>
+            산업용 포장비닐, 작업장갑, 박스, 테이프,
+            완충재 및 각종 포장 패키지까지
+            원스톱 서비스를 제공합니다.
+        </p>
+    </div>
+</section>
+
+<section id="products">
+    <div class="container">
+        <h2 class="section-title">취급 품목</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>산업용 포장비닐</h3>
+                <p>
+                    PE비닐<br>
+                    OPP비닐<br>
+                    수축필름<br>
+                    산업용 포장필름
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>작업장갑</h3>
+                <p>
+                    면장갑<br>
+                    코팅장갑<br>
+                    안전장갑<br>
+                    작업용 장갑
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>포장자재</h3>
+                <p>
+                    박스<br>
+                    테이프<br>
+                    스트레치필름<br>
+                    완충재
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>포장 패키지</h3>
+                <p>
+                    맞춤형 포장재<br>
+                    기업 납품<br>
+                    산업용 패키징
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="cases" class="about">
+    <div class="container">
+        <h2 class="section-title">세건 패키지의 경쟁력</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>15년 이상의 업력</h3>
+                <p>오랜 경험과 노하우를 보유하고 있습니다.</p>
+            </div>
+
+            <div class="card">
+                <h3>원스톱 공급</h3>
+                <p>포장에 필요한 모든 제품을 공급합니다.</p>
+            </div>
+
+            <div class="card">
+                <h3>신속한 납품</h3>
+                <p>빠르고 정확한 납품 서비스를 제공합니다.</p>
+            </div>
+
+            <div class="card">
+                <h3>합리적인 가격</h3>
+                <p>고객 맞춤형 견적을 제공합니다.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+
+        <h2 class="section-title">견적 문의</h2>
+
+        <h3>📞 010-3260-8739</h3>
+        <h3>📠 02-715-9460</h3>
+        <h3>✉️ kassaz@hanmail.net</h3>
+
+        <br>
+
+        <p>
+            서울특별시 및 경기도 지역 납품 가능
+        </p>
+
+    </div>
+</section>
+
+<section id="location">
+    <div class="container">
+        <h2 class="section-title">오시는 길</h2>
+
+        <p style="text-align:center;font-size:20px;">
+            서울특별시 중구 광희동
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 세건 패키지. All Rights Reserved.
+</footer>
+
+</body>
+</html>
